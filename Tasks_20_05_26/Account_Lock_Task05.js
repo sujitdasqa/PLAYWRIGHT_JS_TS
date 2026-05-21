@@ -8,7 +8,7 @@
 // Input: attempts = 3
 // Output: 🔒 Account Locked — Contact support
 
-// Input: attempts = 1
+// Input: attempts = 0
 // Output: Login successful
 
 // let loginAttempts = 5;
@@ -31,7 +31,7 @@ if (loginAttempts === 0) {
     console.log("Login successful");
 }
 else if (loginAttempts === 1) {
-    console.log("2 attempt left before lockout");
+    console.log("2 attempts left before lockout");
 }
 else if (loginAttempts === 2) {
     console.log("1 attempt left before lockout");
